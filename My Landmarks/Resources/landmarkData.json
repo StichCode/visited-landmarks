@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Ласточкино гнездо",
+        "category": "Рекомендуемые",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1001,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.430457,
+            "latitude": 34.128463
+        },
+        "imageName": "lastochka"
+    },
+    {
+        "name": "Долина приведений",
+        "category": "Горы",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1002,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.747921,
+            "latitude": 34.406734
+        },
+        "imageName": "dolina"
+    },
+    {
+        "name": "Кояшское озеро",
+        "category": "Озера",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1003,
+        "park": "",
+        "coordinates": {
+            "longitude": 45.049993,
+            "latitude": 36.181997
+        },
+        "imageName": "kiyaks"
+    },
+    {
+        "name": "Ай Петри",
+        "category": "Горы",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1004,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.451608,
+            "latitude": 34.060132
+        },
+        "imageName": "aipetry"
+    },
+    {
+        "name": "Водопад Джур Джур",
+        "category": "Реки",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1005,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.804996,
+            "latitude": 34.459441
+        },
+        "imageName": "vodopad"
+    },
+    {
+        "name": "Бабуган Яйла",
+        "category": "Горы",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1006,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.629171,
+            "latitude": 34.283925
+        },
+        "imageName": "babuganyala"
+    },
+    {
+        "name": "Кладбище Балта Тиймез",
+        "category": "Рекомендуемые",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1007,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.741402,
+            "latitude": 33.923134
+        },
+        "imageName": "baltatimez"
+    },
+    {
+        "name": "Балаклавская бухта",
+        "category": "Рекомендуемые",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1008,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.500373,
+            "latitude": 33.599550
+        },
+        "imageName": "balaklavsaya"
+    },
+    {
+        "name": "Карадагский заповедник",
+        "category": "Рекомендуемые",
+        "city": "Крым",
+        "state": "Россия",
+        "id": 1009,
+        "park": "",
+        "coordinates": {
+            "longitude": 44.934204,
+            "latitude": 35.223334
+        },
+        "imageName": "karadagskijzapovednik"
+    }
+]
