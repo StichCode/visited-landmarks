@@ -9,23 +9,37 @@
 import SwiftUI
 import MapKit
 
+class LandmarkAnnotation: NSObject, MKAnnotation {
+    let title: String?
+    let subtitle: String?
+    let coordinate: CLLocationCoordinate2D
+    
+    init(title: String?,
+         subtitle: String?,
+         coordinate: CLLocationCoordinate2D){
+        self.title = title
+        self.subtitle = subtitle
+        self.coordinate = coordinate
+    }
+}
+
 struct MapView: UIViewRepresentable {
-    var coordinates: CLLocationCoordinate2D
+    var landmark: Landmark
     
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
-        let coordinate = coordinates
-        let span = MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
-        let region = MKCoordinateRegion(center: coordinate, span: span)
+        let span = MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)
+        let region = MKCoordinateRegion(center: landmark.locationCoordinate, span: span)
         uiView.setRegion(region, animated: true)
+        uiView.addAnnotation(LandmarkAnnotation(title: landmark.name, subtitle: landmark.park, coordinate: landmark.locationCoordinate))
     }
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinates: landmarkData[0].locationCoordinate)
+        MapView(landmark: landmarkData[2])
     }
 }
